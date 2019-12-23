@@ -4,4 +4,8 @@ quotes are fetched from https://gist.githubusercontent.com/camperbot/5a022b72e96
 
 link to the app: https://olegesan.github.io/random-quote-jquery/
 
+features:
+- nice animation;
+- color change;
+
 Simple jquery based random quote webapp
