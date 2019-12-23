@@ -1,10 +1,12 @@
 var quote='';
-var quotes=[];
-var author='';
-var numOfQt = '';
+    quotes=[];
+    author='';
+    numOfQt = '';
+
+
 const colorSchemes=[['706698','F3F5F4'],['201F28','E4E6E1'],['DF7B86','FAFAF9'], ['1FABC2','F6F8F7']]
-const APIlink = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json'
-const randomNum=(length)=>(Math.floor(Math.random()*length))
+      APIlink = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json'
+      randomNum=(length)=>(Math.floor(Math.random()*length))
 async function getQuotes(){
         let fetchedQuotes = await fetch(APIlink)
         .then(data=>data.json())    
